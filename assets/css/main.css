@@ -59,6 +59,13 @@ p {
     font-size: 16px;
 }
 
+.quote > p > b{
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: gray;
+}
+
 .centered {
     text-align: center;
 }
@@ -126,6 +133,15 @@ a:after {
 	width: 280px;
 }
 
+.btn-warning{
+  color: #ffffff;
+  background-color: #f565ad;
+  border-color: #f784f3;
+}
+.btn-warning:hover{
+  background-color: #ec80b7;
+  border-color: #f784f3;
+}
 i {
 	margin: 8px;
 	color: #3498db;
@@ -134,7 +150,7 @@ i {
 
 /* HeaderWrap */
 #headerwrap {
-	background: url(../img/header.jpg) no-repeat center top;
+	background: url(../img/sspring3.jpg) no-repeat center top;
 	/*background-color: #f387b1;*/
 	margin-top: -20px;
 	padding-top:200px;
@@ -157,14 +173,14 @@ i {
 #headerwrap h1 {
 	margin-top: 60px;
 	margin-bottom: 15px;
-	color: white;
+	/*color: white;*/
 	font-size: 45px;
 	font-weight: 300;
 	letter-spacing: 1px;
 }
 #headerwrap h4 {
-  color: white;
+  /*color: white;*/
 }
 .steps{
-  background-color: #f387b1;
+  background-color: #f565ad;
 }
