@@ -70,6 +70,18 @@ p {
     text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .formCentered{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .formCentered{
+    text-align: justify;
+  }
+}
+
 /* Links */
 a {
     color: #3498db;
@@ -117,7 +129,7 @@ a:after {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
+	/*color: white;*/
 }
 
 /* Helpers */
@@ -183,4 +195,23 @@ i {
 }
 .steps{
   background-color: #f565ad;
+}
+
+footer {
+  padding: 10px 0 45px;
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+footer .copyright {
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.text-muted{
+  padding: 10px;
 }
