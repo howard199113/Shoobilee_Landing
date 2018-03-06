@@ -123,10 +123,8 @@ p {
     text-align: justify;
   }
   .formCentered2{
-    text-align: justify;
-  }
-  .formCentered2 > .col-lg-6 > form{
     padding-top: 10px;
+    text-align: justify;
   }
   .formCentered3{
     text-align: justify;
@@ -258,6 +256,7 @@ a:hover{
 }*/
 .charity{
   background-color: #fdf0f7;
+  padding-bottom: 15px;
 }
 
 footer {
