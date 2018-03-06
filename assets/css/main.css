@@ -24,7 +24,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     color: #333;
 }
-
+.headerBanner > .row > .col-lg-6 > h4{
+  color: #a7a7a7;
+  font-weight: 400;
+}
 h1 {
 	font-size: 40px;
 }
@@ -34,8 +37,21 @@ h3 {
 	font-weight: 400;
 }
 
-.steps > .row > .col-lg-6 > h3{
-  /*text-align:justify;*/
+h4 {
+	color: #95a5a6;
+	font-weight: 400;
+}
+
+.social{
+  padding-bottom: 15px;
+}
+
+.charity > .centered > .col-lg-8 > h4{
+  color: #333;
+  padding: 18px;
+}
+
+/*.steps > .row > .col-lg-6 > h3{
   color: white;
 }
 
@@ -44,7 +60,7 @@ h3 {
 }
 .steps > .row > .col-lg-3 > h4{
   color: white;
-}
+}*/
 
 h4 {
 	color: ;
@@ -71,7 +87,33 @@ p {
 }
 
 @media only screen and (min-width: 768px) {
-  .formCentered{
+  .formCentered1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*padding-top: 20px;*/
+    padding-bottom: 30px;
+    /*border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;*/
+    text-align: center;
+  }
+
+  .formCentered2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;*/
+    text-align: center;
+  }
+
+  .formCentered3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
+    /*border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;*/
     text-align: center;
   }
 }
@@ -154,10 +196,19 @@ a:after {
   background-color: #ec80b7;
   border-color: #f784f3;
 }
-i {
+a {
 	margin: 8px;
-	color: #3498db;
+	color: black;
 }
+a:hover{
+  margin: 8px;
+  color: #f565ad;
+}
+
+.quote > p >i{
+  color: black;
+}
+
 
 
 /* HeaderWrap */
@@ -193,12 +244,15 @@ i {
 #headerwrap h4 {
   /*color: white;*/
 }
-.steps{
+/*.steps{
   background-color: #f565ad;
+}*/
+.charity{
+  background-color: #fdf0f7;
 }
 
 footer {
-  padding: 10px 0 45px;
+  padding-top: 40px;
 }
 
 footer .list-inline {
@@ -207,11 +261,18 @@ footer .list-inline {
 }
 
 footer .copyright {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 0;
   text-align: center;
 }
 
+ul {
+  border-top: 1px solid #ccc;
+}
+
 .text-muted{
   padding: 10px;
+}
+.headerBanner{
+  margin-top: -15px;
 }
