@@ -121,6 +121,7 @@ p {
 @media only screen and (max-width: 767px) {
   .formCentered1{
     text-align: justify;
+    padding-bottom: 20px;
   }
   .formCentered2{
     padding-top: 10px;
