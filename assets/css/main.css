@@ -70,9 +70,32 @@ h4 {
 
 /* Paragraph & Typographic */
 p {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-size: 16px;
+  padding-top: 5px;
+  /*margin-bottom: 25px;*/
+  font-size: 16px;
+}
+
+#headerwrap > .headerBanner > .row > .col-lg-6 > p{
+  color: #f565ad;
+  font-size: 14px;
+  font-weight: 900;
+  /*margin-bottom: 5px;*/
+}
+
+.formCentered1 > .col-lg-6 > p{
+  color: #f565ad;
+  font-size: 14px;
+  font-weight: 900;
+}
+.formCentered2 > .col-lg-6 > p{
+  color: #f565ad;
+  font-size: 14px;
+  font-weight: 900;
+}
+.formCentered3 > .col-lg-6 > p{
+  color: #f565ad;
+  font-size: 14px;
+  font-weight: 900;
 }
 
 .quote > p > b{
