@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 .headerBanner > .row > .col-lg-6 > h4{
-  color: #a7a7a7;
+  color: #5d5c5c;
   font-weight: 400;
 }
 h1 {
@@ -38,7 +38,7 @@ h3 {
 }
 
 h4 {
-	color: #95a5a6;
+	color: #333;
 	font-weight: 400;
 }
 
@@ -77,7 +77,7 @@ p {
 
 #headerwrap > .headerBanner > .row > .col-lg-6 > p{
   color: #f565ad;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 900;
   /*margin-bottom: 5px;*/
 }
@@ -156,6 +156,9 @@ p {
   .formCentered3{
     text-align: justify;
   }
+  #LoadExampleInputEmail{
+    width: 100%;
+  }
 }
 
 /* Links */
@@ -199,7 +202,13 @@ a:after {
 	background-color: transparent;
 	border-color: transparent;
 }
+.navbar-fixed-bottom{
+  background-color: #f3f3f5;
+  height: 90px;
+  display: flex;
+  align-items: center;
 
+}
 .navbar-default .navbar-brand {
 	color: white;
 }
@@ -230,6 +239,34 @@ a:after {
   background-color: #ec80b7;
   border-color: #f784f3;
 }
+
+
+.buttons{
+  display: inline-block;
+}
+.btn-primary{
+  background-color: #f565ad;
+  border-color: #f784f3;
+  width: 165px;
+  height: 55px;
+}
+.btn-primary:hover{
+  background-color: #ec80b7;
+  border-color: #f784f3;
+}
+.align{
+  display: flex;
+  align-items: center;
+  width:  857px;
+}
+@media only screen and (max-width: 658px) {
+  .align{
+    display: block;
+    align-items: center;
+    width:  690px;
+  }
+}
+
 a {
 	margin: 8px;
 	color: black;
@@ -309,5 +346,9 @@ ul {
   padding: 10px;
 }
 .headerBanner{
-  margin-top: -40px;
+  margin-top: -65px;
+}
+#navbarOffer{
+  color: #f565ad;
+  font-weight: 900;
 }
